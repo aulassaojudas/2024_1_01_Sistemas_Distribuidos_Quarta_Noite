@@ -25,17 +25,15 @@ class UserService {
     return users.find((user) => user.id === id);
   }
   
-  create(id, email, password) {
-    id = uuidv4();
-    const newUser = new User(id, email, password);
-    users.push(newUser);
-    return newUser;
+  create(UserDTO) {
+    users.push(UserDTO);
+    return UserDTO;
   }
 
-  update(id, email, password) {
-    const userIndex = users.findIndex((user) => user.id === id);
+  update(UserDTO) {
+    const userIndex = users.findIndex((user) => user.id === UserDTO.id);
     if (userIndex === -1) return null;
-    const updatedUser = { id, email, password };
+    const updatedUser = UserDTO;
     users[userIndex] = updatedUser;
     return updatedUser;
   }
