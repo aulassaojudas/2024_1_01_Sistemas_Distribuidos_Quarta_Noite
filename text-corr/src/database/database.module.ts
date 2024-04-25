@@ -22,6 +22,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
         entities: [configService.get<string>('DB_ENTITIES')],
         synchronize: configService.get<boolean>('DB_SYNCHRONIZE'),
         logging: configService.get<boolean>('DB_LOGGING'),
+        logger: 'advanced-console',
       }),
     }),
   ],
