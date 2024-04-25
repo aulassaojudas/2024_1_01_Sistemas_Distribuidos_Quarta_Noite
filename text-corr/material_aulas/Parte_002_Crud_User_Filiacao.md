@@ -300,7 +300,7 @@ async create(createUserDto: CreateUserDto): Promise<User> {
 Na configuração de aplicação foi instalado a biblioteca `bcryptjs`, que vamos utilizar agora. Importe a biblioteca no topo do código como dado abaixo.
 
 ```typescript
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 ```
 Agora vamos refatorar o método create, inserindo as linhas: 
 
