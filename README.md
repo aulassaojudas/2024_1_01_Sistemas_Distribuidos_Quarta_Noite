@@ -1,4 +1,4 @@
-# Repositório de Programas para Sistemas Distribuídos
+# Visite o link https://prof-carminos-organization.gitbook.io/api-nestjs/ para ver os materiais de aula
 
 ## Descrição
 Bem-vindo ao repositório oficial das aulas de Sistemas Distribuídos. Aqui você encontrará uma coleção de programas desenvolvidos durante nossas sessões, abrangendo uma variedade de conceitos e tecnologias essenciais para compreender e implementar sistemas distribuídos robustos e escaláveis.
